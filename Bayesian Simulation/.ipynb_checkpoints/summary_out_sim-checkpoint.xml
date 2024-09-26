@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-08-07 11:05:20 by Eclipse SUMO GUI Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="3intersections_sim.net.xml"/>
+        <route-files value="../routes.rou.xml"/>
+        <additional-files value="additional.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="fcd_output.xml"/>
+        <summary-output value="summary_out_sim.xml"/>
+        <tripinfo-output value="tripinfo_out_sim.xml"/>
+        <edgedata-output value="travel-times-output_sim.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1800"/>
+        <step-length value="1.0"/>
+    </time>
+
+    <random_number>
+        <seed value="0"/>
+    </random_number>
+
+</configuration>
